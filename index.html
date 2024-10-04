@@ -160,13 +160,13 @@
         // Initialize the map
         var map = L.map('map').setView([7.0202, 100.4718], 13);
         const redIcon = L.icon({
-                iconUrl: 'D:/junior/Mobile/spPOI_s988324/homeeiei.png', // Set the path to your 512x512 icon image
+                iconUrl: 'homeeiei.png', // Set the path to your 512x512 icon image
                 iconSize: [42, 42], // Size of the icon
                 iconAnchor: [21, 42], // Anchor point of the icon (center bottom)
                 popupAnchor: [0, -42], // Where the popup should open relative to the icon
             });
         const centerIcon = L.icon({
-                iconUrl: 'D:/junior/Mobile/spPOI_s988324/kopieiei.png', // Set the path to your 512x512 icon image
+                iconUrl: 'kopieiei.png', // Set the path to your 512x512 icon image
                 iconSize: [42, 42], // Size of the icon
                 iconAnchor: [21, 42], // Anchor point of the icon (center bottom)
                 popupAnchor: [0, -42], // Where the popup should open relative to the icon
@@ -207,17 +207,17 @@
             // Use a switch statement or if-else condition to set pathIcon based on amenityType
             switch (amenity) {
               case 'food_court':
-               pathIcon = 'D:/junior/Mobile/spPOI_s988324/aroieiei.png';
+               pathIcon = 'aroieiei.png';
                break;
               case 'fast_food':
-               pathIcon = 'D:/junior/Mobile/spPOI_s988324/homeeiei.png';
+               pathIcon = 'homeeiei.png';
                break;
               case 'restaurant':
-               pathIcon = 'D:/junior/Mobile/spPOI_s988324/kopieiei.png';
+               pathIcon = 'kopieiei.png';
                break;
           // Add more cases as needed for other amenity types
             default:
-               pathIcon = 'D:/junior/Mobile/spPOI_s988324/homeeiei.png'; // Default icon if amenityType doesn't match any case
+               pathIcon = 'homeeiei.png'; // Default icon if amenityType doesn't match any case
                break;
             }
  
